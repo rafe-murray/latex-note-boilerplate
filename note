@@ -8,6 +8,7 @@ echo "\documentclass{article}
 \author{Rafe Murray}
 \date{$(date +%F)}
 \begin{document}
+\sffamily
 \maketitle
 
 \end{document}" > "$FILENAME/$FILENAME.tex"
